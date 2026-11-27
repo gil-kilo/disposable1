@@ -1,3 +1,3 @@
 export function formatLabel(value) {
-  return value;
+  return value.trim().toLowerCase();
 }
